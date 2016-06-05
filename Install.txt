@@ -1,0 +1,15 @@
+1. Navigate to https://console.ng.bluemix.net/
+2. Click to sign up for an account. You will receive an email when it is ready.
+3. Login to your account at https://console.ng.bluemix.net/ 
+4. Click the link 'Use services or API'
+5. Click 'Speech to Text'
+6. Leave all the settings as is and click 'Create'
+7. Click 'Service Credentials'
+8. Copy the value for "username", excluding the quotes, and paste it as the value of textToSpeechUsername in index.js
+9. Copy the value for "password", excluding the quotes, and paste it as the value of textToSpeechPassword in index.js
+10. From a computer with Node.JS installed, go to the command line and navigate to the provided folder. Once in it, run the command:
+	npm install
+11. Once that succeeds, run the program with the command:
+	node index.js
+		OR
+	nodejs index.js
